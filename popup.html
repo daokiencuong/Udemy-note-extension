@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Content Saver</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+    #content {
+      margin-bottom: 10px;
+    }
+    textarea {
+      width: 100%;
+      height: 60px;
+      margin-top: 10px;
+    }
+    button {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Course Data</h3>
+  <p><strong>Course Title:</strong> <span id="courseTitle">Unknown</span></p>
+  <p><strong>Lesson Title:</strong> <span id="lessonTitle">Unknown</span></p>
+  <p><strong>Current Link:</strong> <span id="currentLink">Unknown</span></p>
+  <p><strong>Section Title:</strong> <span id="sectionTitle">Unknown</span></p>
+  <button id="getContent">Getcoten</button>
+  <textarea id="note" placeholder="Enter your note here"></textarea>
+  <button id="saveContent">Save</button>
+  <script src="popup.js"></script>
+</body>
+</html>
